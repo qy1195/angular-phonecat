@@ -1,0 +1,24 @@
+$fontStack: "Lucida Grande", Helvetica, Arial, sans-serif;
+body {
+  font-family: $fontStack;
+  font-size: 14px ;
+  .navbar{
+    width: 480px;
+    margin: 0 auto;
+  }
+  .panel{
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 20px;
+    #headingOne{
+        color: #31708f;
+        background-color: #d9edf7;
+        .panel-title{
+          font-size: 12px;
+        }
+        .panel-body{
+          line-height: 20px;
+        }
+    }
+  }
+}
